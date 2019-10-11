@@ -115,7 +115,7 @@ h6#about-me-text{
     background: black;
 }
 #box-one{
-    height: 140px;
+    height: auto;
     width: 90%;
     margin: 0 auto;
     background: #1E1E24;
@@ -123,7 +123,7 @@ h6#about-me-text{
     padding: 15px;
 }
 #box-two{
-    height: 140px;
+    height: auto;
     width: 90%;
     margin: 0 auto;
     background: #1E1E24;
@@ -153,7 +153,7 @@ i{
     background: #1E1E24;
     color:  rgb(28, 241, 159);
     font-size: 15px;
-    margin-top: 120px;
+    margin-top: 180px;
 }
 #foot-text{
     text-align: center;
@@ -170,7 +170,7 @@ i{
       text-align: center;
     }
     p.greeting{
-        margin-left: 150px;
+        margin-left: 120px;
     }
     h2.name,h5.career{
         text-align: center;
