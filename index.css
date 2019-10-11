@@ -148,15 +148,12 @@ i{
 .edu-text{
     color: #D2D2D3;
 }
-#footer{
-    height: 30px;
-    background: #1E1E24;
-    color:  rgb(28, 241, 159);
-    font-size: 15px;
-    margin-top: 180px;
-}
+
 #foot-text{
     text-align: center;
+    background: #1E1E24;
+    color: rgb(28, 241, 159);
+    font-size: 15px;
 }
 
 
@@ -170,7 +167,7 @@ i{
       text-align: center;
     }
     p.greeting{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     h2.name,h5.career{
         text-align: center;
