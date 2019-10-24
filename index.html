@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- link to custom css -->
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./src/animate.css">
+    <script src="./src/wow.js"></script>
     <script src="https://kit.fontawesome.com/e9f047ce30.js" crossorigin="anonymous"></script>
     <title>Min Thu Kyaw</title>
     <link rel = "icon" href =  
@@ -17,12 +19,13 @@
             type = "image/x-icon"> 
 </head>
 <body>
+
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="height:300px">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInLeft" style="height:300px">
                <p class="img-align"><img src="./img/profile.jpg" alt="Min Thu Kyaw"></p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="height:400px">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight" style="height:400px">
                 <div class="info-group">
                     <p class="greeting">Hello I'm</p><br><br>
                     <h2 class="name">Min Thu Kyaw</h2>
@@ -43,7 +46,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row  wow fadeInDown">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="height:300px">
                 <h1 id="about-me-head">About Me</h1><br>
                 <h6 id="about-me-text">Hello, I'm Min Thu Kyaw,Web developer based on Myanmar. I have rich experience in web development and web design. Also I am good at </h6><br>
@@ -61,7 +64,7 @@
         </div>
 
         <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="height:450px">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInUp" style="height:450px">
                         <h1 id="skill">Techanical Skill</h1><br>
                         <h6 class="lang-name">PHP - 40%</h6>
                         <div class="progress">
@@ -84,7 +87,7 @@
                             <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="height:450px">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInUp" style="height:450px">
                     <h1 id="edu">Education</h1><br>
                     <div id="box-one">
                         <h5 class="h-s">Pass High School From </h5><i>B.E.H.S - 2 South Okkalapa</i><br>
@@ -103,7 +106,9 @@
 
        
 
-
+    <script>
+        new WOW().init();
+    </script>
     
 </body>
 
